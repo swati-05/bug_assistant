@@ -74,18 +74,7 @@ npm run dev
 The frontend runs on http://localhost:5173 and expects the backend on
 http://localhost:8000.
 
-## Getting a Gemini API Key
 
-1. Go to https://aistudio.google.com/
-2. Sign in with a Google account.
-3. Click "Get API key", then "Create API key".
-4. Put the key in `backend/.env`:
-
-   ```
-   GEMINI_API_KEY=your_actual_key_here
-   ```
-
-The `gemini-2.5-flash` model is available on the free tier.
 
 ## Folder Structure
 
@@ -146,3 +135,7 @@ ai-bug-report-assistant/
 | PATCH | `/bugs/{id}/status` | Update status (Open / In Progress / Resolved) |
 | DELETE | `/bugs/{id}` | Delete a bug |
 | GET | `/analytics/` | Aggregate counts for the dashboard and charts |
+
+
+# GIT URL 
+https://github.com/swati-05/bug_assistant.git
